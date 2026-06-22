@@ -1,0 +1,36 @@
+from tkhtmlview import HTMLLabel  # Add at the top
+# ===== CHAT DISPLAY (Glassmorphism) =====
+
+self.chat_frame = ctk.CTkFrame(
+    self.main_frame,
+    fg_color="#0d1117",  # Keep dark base
+    corner_radius=12,
+    border_width=1,
+    border_color="#2d3748"  # Subtle border
+)
+self.chat_frame.pack(fill='both', expand=True, padx=15, pady=10)
+
+self.chat_display = HTMLLabel(
+    self.chat_frame,
+    html="",
+    background="#0d1117",
+    font=("Segoe UI", 12),
+    text_color="#e6edf3",
+    wraplength=480,
+    justify="left",
+    padx=10,
+    pady=10
+)
+self.chat_display.pack(fill='both', expand=True)
+
+# Glassmorphism textbox (transparent background, blur effect simulated)
+self.messages_text = ctk.CTkTextbox(
+    self.chat_frame,
+    font=ctk.CTkFont(family="Segoe UI", size=12),
+    fg_color="#0d1117",  # Dark transparent (glass effect)
+    text_color="#e6edf3",
+    wrap='word',
+    border_width=0,
+    corner_radius=10
+)
+self.messages_text.pack(fill='both', expand=True, padx=5, pady=5)
