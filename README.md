@@ -24,19 +24,12 @@
 - 👻 **Stealth Mode** – Dim overlay during meetings
 - 🔒 **Invisible During Screen Share** – Windows Display Affinity API
 - 🧠 **Markdown Support** – Bold, italics, headings, code blocks in responses
-- ⚡ **Real‑time** – Responses in 1‑3 seconds
+- ⚡ **Real‑time** – Responses in a couple of seconds
 - 🎨 **Modern UI** – Clean, dark-themed interface
 - 🔄 **Cross-Platform** – Works with Zoom, Google Meet, Teams
 
 ---
 
-## 📸 Screenshots
-
-| Local View (Overlay Visible) | Remote View (Overlay Invisible) |
-|------------------------------|--------------------------------|
-| <img src="screenshots/local.png" width="400" alt="Local View"/> | <img src="screenshots/remote.png" width="400" alt="Remote View"/> |
-
----
 
 ## 🛠️ Installation
 
