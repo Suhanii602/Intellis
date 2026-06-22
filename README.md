@@ -22,14 +22,6 @@ It answers questions via text, voice, or screen capture — and **stays hidden**
 
 ---
 
-## 📸 Screenshots
-
-| Local View (Overlay Visible) | Remote View (Overlay Invisible) |
-|------------------------------|--------------------------------|
-| *(Add screenshot 1 here)*    | *(Add screenshot 2 here)*      |
-
----
-
 ## 🛠️ Installation
 
 ### 1. Clone the repository
