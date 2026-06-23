@@ -158,13 +158,6 @@ intellis-ai/
 │   ├── audio_processor.py   # Whisper speech-to-text
 │   └── main.py              # Entry point
 │
-├── assets/
-│   └── icon.ico             # Application icon
-│
-├── screenshots/
-│   ├── local.png            # Local view screenshot
-│   └── remote.png           # Remote view screenshot
-│
 ├── config_template.json     # Template for API keys
 ├── requirements.txt         # Python dependencies
 ├── run_intellisai.py        # EXE entry point
